@@ -20,7 +20,7 @@ const images = [
             }
             scrollRef.current.scrollTo({ x: scrollPosition, animated: true });
         }
-        }, 4000);
+        }, 5000);
 
         return () => clearInterval(interval); // Limpiar el intervalo cuando el componente se desmonte
     }, []);
